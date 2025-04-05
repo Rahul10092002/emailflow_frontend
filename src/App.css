@@ -1,0 +1,9 @@
+.react-flow__node-dragging {
+  border: 2px dashed #6366f1; /* Change border color of drag preview */
+  background-color: rgba(99, 102, 241, 0.1); /* Optional: Light background */
+  cursor: grabbing;
+}
+.react-flow__node-dragging .react-flow__node {
+  background-color: rgba(99, 102, 241, 0.1); /* Optional: Light background */
+  border: 2px dashed #6366f1; /* Change border color of drag preview */
+}
