@@ -201,7 +201,7 @@ const LeadSourceNode = ({ id, data, isConnectable }) => {
 
       <Handle
         type="source"
-        position={Position.Bottom}
+        position={Position.Right}
         isConnectable={isConnectable}
         style={{
           width: "12px",

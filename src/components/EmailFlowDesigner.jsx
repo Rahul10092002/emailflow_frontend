@@ -344,7 +344,7 @@ const EmailFlowDesigner = () => {
       });
 
       if (response.status === 200 || response.status === 201) {
-        toast.success("Flowchart saved successfully");
+        toast.success(`Flowchart ${flowchartId?"updated":"saved"} successfully`);
         if (!flowchartId && response.data.flowchartId) {
           window.history.replaceState(
             null,
@@ -473,10 +473,10 @@ const EmailFlowDesigner = () => {
             connectionMode="loose"
             defaultEdgeOptions={{
               animated: false,
+              type: "straight",
               style: {
                 stroke: "#4ade80",
                 strokeWidth: 3,
-                strokeDasharray: "5,5",
               },
             }}
           >
