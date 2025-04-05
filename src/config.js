@@ -1,3 +1,3 @@
 // API URL based on environment
-export const API_URL = "http://localhost:5000"
+export const API_URL = "https://emailflowbackend.onrender.com";
 
